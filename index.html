@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
   </head>
   <body id="home">
     <div class="wrap">
@@ -14,14 +20,11 @@
         <a href="./"
           ><img class="back" src="images/back.png" alt="뒤로가기"
         /></a>
-        <div id="logo">
-          <a href="./" class="text-logo"
-            ><img src="images/logo-text.png" alt="logo"
-          /></a>
-          <a href="./" class="symbol-logo"
-            ><img src="/images/logo-symbol.png" alt="logo"
-          /></a>
-        </div>
+        <a id="logo" href="./" alt="home">
+          <img src="images/logo-text.png" alt="logo" class="text-logo" />
+
+          <img src="/images/logo-symbol.png" alt="logo" class="symbol-logo" />
+        </a>
         <a href="./"
           ><img src="images/gnb-btn.png" class="gnb-btn" alt="메뉴"
         /></a>
@@ -113,5 +116,6 @@
         <div id="foot-info"></div>
       </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </body>
 </html>

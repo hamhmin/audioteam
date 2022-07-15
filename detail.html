@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제품 상세</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body id="detail">
+    <header>
+        
+        <a href="./"
+          ><img class="back" src="images/back.png" alt="뒤로가기"
+        /></a>
+        <a id="logo" href="./" alt="home">
+          <img src="images/logo-text.png" alt="logo" class="text-logo" />
+
+          <img src="/images/logo-symbol.png" alt="logo" class="symbol-logo" />
+        </a>
+        <a href="./"
+          ><img src="images/gnb-btn.png" class="gnb-btn" alt="메뉴"
+        /></a>
+      </header>
+    <main>
+        
+            <div class="container">
+                <h1><span>헤드폰</span> > 무선 헤드폰</h1>
+                <h2>ATH-M20xBT</h2>
+                <p>[60주년 스페셜 이벤트 / 추가 할인 제공]<br>
+                    [M 시리즈]<br>
+                    [무선 블루투스 모니터링 헤드폰]<br>
+                    [무선 모니터링 헤드폰 엔트리 모델]</p>
+            </div>
+            <figure>
+                <div class="swiper">
+                    <!-- 필수/추가 UI구성요소 -->
+                    <div class="swiper-wrapper">
+                    <!-- Slider 본체 ( 이곳에 이미지 삽입) -->
+                    <div class="swiper-slide">
+                        <img src="./images/AT images/03-1Hw-2 ATH-M20xBT.jpg" alt=""> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/AT images/03-1Hw-1 ATH-M50xBT2.jpg" alt="">
+                    </div>
+                    
+                    <!-- 계속 추가 가능 -->
+                    </div>
+                    <!-- 하단 pager(옵션) -->
+                    <div class="swiper-pagination"></div>           
+                </div>
+            </figure>
+    <!-- 이미지 슬라이드 -->
+    
+    <p class="price">
+        <span>판매가</span>
+        <span>₩ 229,000</span>
+    </p>
+    <div class="option">
+        <div class="wrap">
+            <div class="col">
+                <p>색상</p>
+                    <form>
+                    <input type="radio">
+                    </form>     
+                <p>블랙</p>
+            </div>
+            <div class="col">
+                <p class="qtitle">수량</p>  
+                <div class="quantity">  
+                    <button type="button" id="dec">-</button>
+                    <span id="num">1</span>
+                    <button type="button" id="inc">+</button> 
+                </div>
+        
+            </div>
+        </div>
+    </div>
+    <div class="buy">
+        <p class="price">
+            <span>판매가</span>
+            <span>₩ 229,000</span>
+        </p>
+        <div class="buy-btn-group">
+            <a href="#" class="btn-large btn-outline">장바구니</a>
+            <a href="#" class="btn-large btn-buy">구매하기</a>
+        </div>
+    </div>
+</main>
+
+
+</body>
+</html>
