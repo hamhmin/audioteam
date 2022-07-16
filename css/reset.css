@@ -24,6 +24,7 @@
 
   body {
       font-size: 100%;
+      font-family: 'Noto Sans KR', '맑은 고딕', sans-serif;
   }
   :root {
     --main-color1: #333;
