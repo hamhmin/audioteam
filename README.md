@@ -13,3 +13,6 @@ https://wb96choi.github.io/audioteam/
 메뉴창안에 링크넣기
 
 메뉴 서브메뉴 클릭시 메뉴창 사라지는 오류 해결
+=진짜 오류같으니 보류
+
+상세페이지 margin-bottom좀만더주기
