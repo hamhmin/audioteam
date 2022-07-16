@@ -6,6 +6,7 @@
 @import url("menu.css");
 @import url("gvs-style.css");
 @import url("lvs-style.css");
+@import url("footer.css");
 
 
 
@@ -31,6 +32,9 @@ header .back {
   margin-top: 5px;
   width: 20px;
   height: 20px;
+}
+header .remove-back {
+  display: none;
 }
 header .gnb-btn {
   width: 15px;

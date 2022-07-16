@@ -17,10 +17,10 @@
   <body id="home">
     <div class="wrap">
       <header>
-        <!-- <button onclick="history.back()">
-          <img class="back" src="images/back.png" alt="뒤로가기"
+        <button onclick="history.back()">
+          <img class="remove-back" src="images/back.png" alt="뒤로가기"
         />
-        </button> -->
+        </button>
         <a id="logo" href="index.html" alt="home">
           <img src="images/text-logo.png" alt="logo" class="text-logo" />
 
@@ -36,6 +36,10 @@
 
         <main id="gnb">
           <header>
+            <button onclick="history.back()">
+              <img class="remove-back" src="images/back.png" alt="뒤로가기"
+            />
+            </button>
             <a id="logo" href="./" alt="home">
               <img src="images/text-logo.png" alt="logo" class="text-logo" />
     
@@ -83,7 +87,7 @@
                     </ul>
                 </li>
                 <li class="main-list"><a href="./">마이크</a></li>
-                <li class="main-list"><a href="./">고객지원</a><img src="/images/plus.png" alt="plus">
+                <li class="main-list"><a href="./">고객지원</a><img src="images/plus.png" alt="plus">
                     <ul>
                         <a href="./"><li>고객센터</li></a>
                         <a href="./"><li>무통장입금</li></a>
@@ -98,7 +102,7 @@
       
      <!-- gnb---- -->
       <section id="imgslider">
-        <img src="images/slideimg01.jpg" alt="slidebanner" />
+        <iframe width="100%" height="350" src="https://www.youtube.com/embed/RW86oMO80Ms?start=606" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </section>
       <main>
         <h2>New Arrival</h2>
@@ -181,9 +185,37 @@
         <!-- col ---------->
       </main>
       <footer>
-        <section class="foot-header"></section>
-        <section></section>
-        <div id="foot-info"></div>
+        <div class="container">
+          <div class="sns">
+            <a href="./"><img src="images/facebookicon.png" alt="facebook"></a>
+            <a href="./"><img src="images/appleicon.png" alt="apple"></a>
+            <a href="./"><img src="images/navericon.png" alt="naver"></a>
+            <a href="./"><img src="images/kakaoicon.png" alt="kakao"></a>
+          </div>
+          <div class="middle">
+            <div class="bank1">
+              <span id="bankbook">무통장입금</span>
+              <span id="companybank">기업은행 148-086543-01-014</span>
+            </div>
+            <div class="bank2">
+              <p>예금주 : (주)세기AT</p>
+              <button type="button">인터넷뱅킹 바로가기<i class="bi bi-caret-down-fill"></i></button>
+            </div>
+            <div class="bank3">
+              <p id="ask">배송조회</p>
+              <p id="deliver">로젠택배 1588-9988</p>
+            </div>
+          </div>
+          <div class="down">
+            <p id="cs">CS : 02-3789-9803</p>
+            <p id="adress">(04629) 서울특별시 중구 소파로 127 (남산동 2가 23)
+              세기빌딩 1층 오디오테크니카 서비스 센터</p>
+            <p id="day">월-금 오전 10시 ~ 오후 6시 / 
+              점심시간 오후 12시 30분 ~ 1시 30분
+              토요일, 일요일, 공휴일 휴무</p>
+          </div>
+          <p id="bottom"><a href="#">HOME</a><span>&nbsp;|&nbsp;</span><a href="#">BRAND STORY</a><span>&nbsp;|&nbsp;</span><a href="#">AGREEMENT</a><span>&nbsp;|&nbsp;</span><a href="#">PRIVACY POLICY</a><span>&nbsp;|&nbsp;</span><a href="#">GUIDE</a></p>
+        </div>
       </footer>
     </div>
     

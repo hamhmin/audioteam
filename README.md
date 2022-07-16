@@ -8,5 +8,8 @@ https://wb96choi.github.io/audioteam/
 로그인창은 미완성
 
 메뉴토글창 심볼로고 지랄난거 고치기
+= .remove-back css추가로 해결
 
 메뉴창안에 링크넣기
+
+메뉴 서브메뉴 클릭시 메뉴창 사라지는 오류 해결
