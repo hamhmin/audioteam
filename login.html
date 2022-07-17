@@ -13,7 +13,7 @@
 
   <header>
     <button onclick="history.back()">
-      <img class="remove-back" src="images/back.png" alt="뒤로가기"
+      <img class="back" src="images/back.png" alt="뒤로가기"
     />
     </button>
     <a id="logo" href="index.html" alt="home">
@@ -97,32 +97,60 @@
   
  <!-- gnb---- -->
 
-    <main>
-        <div class="line"></div>
-        <div class="log-in">
-        <h1>로그인</h1>
-        </div>
-        <div class="textbox">
-        <div class="text">
-            <p>아이디를 입력해 주세요.</p>
-        </div>
-        <div class="password">
-            <p>비밀번호를 입력해 주세요.</p>
-        </div>
-        </div>
-        <div class="check-box">
-            <form>
-                <input type="checkbox" id="cb1">
-                <label for="cb1"></label>
-                <span>아이디 저장</span>
-            </form>
-            <form>
-                <input type="checkbox" id="cb2">
-                <label for="cb2"></label>
-                <span>자동 로그인</span>
-            </form>
-    
-    </div>
-    </main>
+ <main>
+  <!-- <div class="line"></div> -->
+  <div class="log-in">
+  <h1>로그인</h1>
+  </div>
+  <div class="textbox">
+  <div class="text">
+      <input type="text" placeholder="아이디를 입력해 주세요.">
+  </div>
+  <div class="password">
+      <input type="text" placeholder="비밀번호를 입력해 주세요.">
+  </div>
+</div>
+  <div class="check-box">
+      <form>
+          <input type="checkbox" id="cb1">
+          <label for="cb1"></label>
+          <span>아이디 저장</span>
+      </form>
+      <form>
+          <input type="checkbox" id="cb2">
+          <label for="cb2"></label>
+          <span>자동 로그인</span>
+      </form>
+</div>
+<div class="logbox">
+  <div class="log">
+      <p>로그인하기</p>
+  </div>
+  <div class="order">
+      <p>비회원 주문</p>
+  </div>
+  </div>
+  <div class="info">
+  <ul>
+    <li>아이디 찾기</li>
+    <li>비밀번호 찾기</li>
+    <li class="sign">회원가입</li>
+  </ul>
+</div>
+  <ul class="sns-list">
+    <li>
+      <img src="images/facebook.png" alt="페이스북"> <p>페이스북</p>
+    </li>
+    <li>
+      <img src="images/apple.png" alt="애플"><p>애플</p>
+    </li>
+    <li>
+      <img src="images/naver.png" alt="네이버"> <p>네이버</p>
+    </li>
+    <li>
+      <img src="images/kakao.png" alt="카카오"><p>카카오톡</p>
+    </li>
+   </ul>
+</main>
 </body>
 </html>
