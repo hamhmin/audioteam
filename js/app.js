@@ -63,3 +63,50 @@ $(function(){
           $(this).find('ul').stop().slideToggle();
       });
 });
+
+
+
+
+
+$(window).scroll(function(){
+	if ($(this).scrollTop() > 300){
+		$('.col.scroll2 a').fadeIn(1000);
+	} else{
+		$('.col.scroll2 a').fadeOut(1000);
+	}
+});
+
+
+$(function(){
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 200){
+      $('section.col').eq(0).fadeIn(400);
+    } else{
+      $('section.col').eq(0).fadeOut(100);
+    }
+  });
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 800){
+      $('section.col').eq(1).fadeIn(400);
+    } else{
+      $('section.col').eq(1).fadeOut(100);
+    }
+  });
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 1400){
+      $('section.col').eq(2).fadeIn(400);
+    } else{
+      $('section.col').eq(2).fadeOut(100);
+    }
+  });
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 2200){
+      $('section.col').eq(3).fadeIn(400);
+    } else{
+      $('section.col').eq(3).fadeOut(100);
+    }
+  });
+});
+
+
+
