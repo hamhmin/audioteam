@@ -8,15 +8,7 @@
     justify-content: center;
     align-items: center;
   }
-  .swiper-slide:nth-child(1) {
-    background: #abc;
-  }
-  .swiper-slide:nth-child(2) {
-    background: #bac;
-  }
-  .swiper-slide:nth-child(3) {
-    background: #cab;
-  } /* 이미지슬라이드-------------------------------- */
+   /* 이미지슬라이드-------------------------------- */
   
   
   
