@@ -113,7 +113,7 @@ main {
 }
 #banner {
   width: 100%;
-  height: 350px;
+  height: 500px;
   background: pink;
   margin-bottom: 17px;
 }
@@ -218,7 +218,7 @@ main {
 
 
 .top-btn{
-    width: 22px;
+    width: 26px;
     height: 26px;
 }
 .col.scroll2{

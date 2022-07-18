@@ -45,3 +45,39 @@ html{
     --medium: 500;
     --bold: 700;
   }
+
+
+
+  /* max-width 설정 */
+body{
+  max-width: 500px;
+  min-width: 320px;
+  margin: 0 auto;
+  background: #fff;
+}
+header{
+  max-width: 500px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.movie{
+  max-width: 500px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+#gnb{
+  max-width: 500px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+video{
+  max-width: 500px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+#wrap{
+  position: relative;
+  width: inherit;
+  height: inherit;
+  overflow: hidden;
+}
