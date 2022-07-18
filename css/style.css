@@ -218,16 +218,20 @@ main {
 
 
 .top-btn{
-  width: 40px;
-  height: 40px;
+    width: 22px;
+    height: 26px;
 }
 .col.scroll2{
-  display: flex;
-  justify-content: center;
-  /* position: fixed; */
-  /* bottom: 10px; */
-  /* right: 0; */
+  position: relative;
 }
+.col.scroll2 a{
+  position: fixed;
+  display: none;
+  bottom: 20px;
+  right:15px;
+
+}
+
 
 
 
