@@ -81,7 +81,7 @@ input[id="cb1"]:checked + label {
   background-clip: content-box;
 }
 input[id="cb1"] {
-  display: none;
+  /* display: none; */
 }
 
 input[id="cb2"] + label {
@@ -100,7 +100,7 @@ input[id="cb2"]:checked + label {
   background-clip: content-box;
 }
 input[id="cb2"] {
-  display: none;
+  /* display: none; */
 }
 
 .logbox {

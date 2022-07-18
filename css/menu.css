@@ -7,6 +7,9 @@
   transform: translateX(100%);
   transition-duration: 0.4s;
   z-index: 999;
+
+
+  overflow: scroll;
 }
 #gnb.on {
   transform: translateX(0%);
@@ -15,7 +18,7 @@
 
 #gnb{
     width: 100%;
-    height: calc(100vh - 53px);
+    height: 100vh;
     margin-top: 53px;
     background-color: var(--main-color2);
   }

@@ -5,6 +5,11 @@
     font-family: "Noto Sans KR", sans-serif;
     color: #333;
   }
+
+  /*스크롤이동시 부드럽게 이동*/
+html{
+  scroll-behavior: smooth;
+}
   a {
     text-decoration: none;
     color: inherit;
