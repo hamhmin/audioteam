@@ -57,6 +57,8 @@ $(function(){
     $('#gnb').removeClass('on');
   });
 });
+
+
 // 메뉴 슬라이드 
 $(function(){
   $(".main-list").click(function(){

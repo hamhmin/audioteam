@@ -3,8 +3,8 @@
 #gnb {
   position: fixed;
   top: -53px;
-  right: 0;
-  transform: translateX(100%);
+  /* right: 0; */
+  transform: translateY(100%);
   transition-duration: 0.4s;
   z-index: 999;
 
@@ -12,7 +12,7 @@
   overflow: scroll;
 }
 #gnb.on {
-  transform: translateX(0%);
+  transform: translateY(0%);
 }
 
 

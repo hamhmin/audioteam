@@ -170,3 +170,10 @@
 
 
 
+.swiper {
+  width: 1920px;
+  height: 544px;
+}
+img {
+  object-fit: cover;
+}
