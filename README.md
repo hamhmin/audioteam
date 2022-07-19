@@ -3,10 +3,10 @@
 3조. 최원빈 함형민 이태섭 주윤종 박지훈
 
 오디오 테크니카 모바일웹을 제작했습니다.
+```c
+- 사이트 링크 : https://wb96choi.github.io/audioteam/
+-![audiotechinca](https://user-images.githubusercontent.com/81698301/179644710-772eefb0-a2a9-4282-883c-ec45ef0f7804.gif)
 
-    사이트 링크 : https://wb96choi.github.io/audioteam/
-
-    ![image](https://user-images.githubusercontent.com/49775311/179454095-c197ae87-d925-48ce-af78-95463e078563.png)
 
 ## 기능 구현
 
@@ -49,3 +49,10 @@
 * 상세페이지 상단에는 제품 정보가 기입되어 있고
 이미지 슬라이더(swiper)를 삽입하여 사용자가 직접 넘겨서 다음이미지를 볼 수 있게끔 설정해놨습니다.
 * radio버튼으로 색상을 선택할 수 있고 수량버튼을 추가하여 플러스버튼과 마이너스버튼으로 수량을 선택할 수 있게 만들었습니다.(Javascript 사용)
+
+
+
+
+## 사용 라이브러리
+|JavaScript|HTML5|CSS|
+|---|---|---|
