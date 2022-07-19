@@ -5,7 +5,8 @@
 오디오 테크니카 모바일웹을 제작했습니다.
 
 - 사이트 링크 : https://wb96choi.github.io/audioteam/
--![audiotechinca](https://user-images.githubusercontent.com/81698301/179644710-772eefb0-a2a9-4282-883c-ec45ef0f7804.gif)
+
+- ![audiotechinca](https://user-images.githubusercontent.com/81698301/179644710-772eefb0-a2a9-4282-883c-ec45ef0f7804.gif)
 
 
 ## 기능 구현
