@@ -63,8 +63,25 @@ function getData() {
     </div>
   
     <figure>
-  
-          <img src="${imgUrl}" alt="${name}">
+    <div class="swiper">
+    <!-- 필수/추가 UI구성요소 -->
+    <div class="swiper-wrapper">
+    <!-- Slider 본체 ( 이곳에 이미지 삽입) -->
+    <div class="swiper-slide">
+        <img src="${imgUrl}" alt="${name}"> 
+    </div>
+    <div class="swiper-slide">
+        <img src="${imgUrl2}" alt="${name}"> 
+    </div>
+    <div class="swiper-slide">
+        <img src="${imgUrl3}" alt="${name}"> 
+    </div>
+        
+    <!-- 계속 추가 가능 -->
+    </div>
+    <!-- 하단 pager(옵션) -->
+    <div class="swiper-pagination"></div>           
+</div>
   
     </figure>
   
@@ -145,10 +162,37 @@ $(function(){
     });
     });
 
-    $('#detail1').append(html);
+    
 
     
+
+  // 상세페이지 이미지 슬라이더
+  $(function(){
+    const swiper = new Swiper('.swiper', {
+        // 옵션
+      
+        direction: 'horizontal',
+        loop: true, // true: 무한 넘김 false: 끝이 있음
+      
+        // 하단 pager
+        pagination: {
+            // class명 지정
+        el: '.swiper-pagination',
+          type: 'bullets'
+        },
+      
+      });
+  });
+
+
+
+
+  $('#detail1').append(html);
+
+
   }
+
+
   
 
 
