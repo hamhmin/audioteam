@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>audio-technica Products(Gallery View)</title>
   <link rel="stylesheet" href="css/style.css">
-  
- 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/app.js"></script>
   <!-- 제품 불러오는 코드 -->
   <script src="js/product-gvs.js"></script>
 
@@ -19,11 +19,10 @@
 
   <header>
     <button onclick="history.back()">
-      <img class="remove-back" src="images/back.png" alt="뒤로가기"
+      <img class="back" src="images/back.png" alt="뒤로가기"
     />
-    <span class="empty"></span>
     </button>
-    <a id="logo" href="index.html" alt="home">
+    <a id="logo" href="./" alt="home">
       <img src="images/text-logo.png" alt="logo" class="text-logo" />
 
       <img src="images/symbol-logo.png" alt="logo" class="symbol-logo" />
@@ -36,82 +35,77 @@
   </header>
 <!--header------->
 
-    <main id="gnb">
-      <header>
-        <button onclick="history.back()">
-          <img class="remove-back" src="images/back.png" alt="뒤로가기"
-        />
-        <span class="empty"></span>
-        </button>
-        <a id="logo" href="./" alt="home">
-          <img src="images/text-logo.png" alt="logo" class="text-logo" />
+<main id="gnb">
+  <header>
+    <button onclick="history.back()">
+      <img class="remove-back" src="images/back.png" alt="뒤로가기"
+    />
+    <span class="empty"></span>
+    </button>
+    <a id="logo" href="./" alt="home">
+      <img src="images/text-logo.png" alt="logo" class="text-logo" />
 
-          <img src="images/symbol-logo.png" alt="logo" class="symbol-logo" />
-        </a>
-        <button class="gnb-btn-close">
-          <img src="images/gnb-btn-close.png" alt="메뉴"
-        />
-      </button>
-    </header>
+      <img src="images/symbol-logo.png" alt="logo" class="symbol-logo" />
+    </a>
+    <button class="gnb-btn-close">
+      <img src="images/gnb-btn-close.png" alt="메뉴"
+    />
+  </button>
+</header>
 
-      <div class="search">
-        <img src="images/search.png" alt="search">
-        <input type="text" placeholder="audio-technica 검색">
-      </div>
-      <section id="my">
-        <a href="login.html"><img src="images/login.png" alt="login">LOGIN</a>
-        <a href="./"><img src="images/cart.png" alt="login">CART</a>
-        <a href="./"><img src="images/like.png" alt="login">찜한상품</a>
-      </section>
+  <div class="search">
+    <img src="images/search.png" alt="search">
+    <input type="text" placeholder="audio-technica 검색">
+  </div>
+  <section id="my">
+    <a href="login.html"><img src="images/login.png" alt="login">LOGIN</a>
+    <a href="./"><img src="images/cart.png" alt="login">CART</a>
+    <a href="./"><img src="images/like.png" alt="login">찜한상품</a>
+  </section>
 
-      <nav>
-        <ul>
-            <li class="main-list"><a href="products.html">이어폰</a><img src="images/plus.png" alt="plus">
-                <ul>
-                    <a href="products.html?category=유선이어폰"><li>유선 이어폰</li></a>
-                    <a href="products.html?category=무선이어폰"><li>무선 이어폰</li></a>
-                    <a href="products.html?category=노이즈캔슬링"><li>노이즈 캔슬링</li></a>
-                    <a href="products.html?category=하이레졸루션"><li>하이레졸루션</li></a>
-                </ul>
-            </li>
-            <li class="main-list"><a href="products.html">헤드폰</a><img src="images/plus.png" alt="plus">
-                <ul>
-                    <a href="products.html?category=유선헤드폰"><li>유선 헤드폰</li></a>
-                    <a href="products.html?category=무선헤드폰"><li>무선 헤드폰</li></a>
-                    <a href="products.html?category=모니터링"><li>모니터링</li></a>
-                    <a href="products.html?category=게이밍헤드셋"><li>게이밍 헤드셋</li></a>
-                    <a href="products.html?category=프리미엄"><li>프리미엄</li></a>
-                </ul>
-            </li>
-            <li class="main-list"><a href="products.html">턴테이블/스피커</a><img src="images/plus.png" alt="plus">
-                <ul>
-                    <a href="products.html?category=턴테이블"><li>턴테이블</li></a>
-                    <a href="products.html?category=스피커"><li>스피커</li></a>
-                </ul>
-            </li>
-            <li class="main-list"><a href="products.html?category=마이크">마이크</a></li>
-            <li class="main-list"><a href="./">고객지원</a><img src="images/plus.png" alt="plus">
-                <ul>
-                    <a href="./"><li>고객센터</li></a>
-                    <a href="./"><li>무통장입금</li></a>
-                    <a href="./"><li>배송조회</li></a>
-                    <a href="./"><li>소셜미디어</li></a>
-                </ul>
-            </li>
-            <li class="main-list"><a href="about.html">회사소개</a></li>
-        </ul>
-      </nav>
-    </main>
+  <nav>
+    <ul>
+        <li class="main-list"><a href="./products.html?mainGroup=이어폰">이어폰</a><img src="images/plus.png" alt="plus">
+            <ul>
+                <a href="./products.html?category=유선이어폰"><li>유선 이어폰</li></a>
+                <a href="./products.html?category=무선이어폰"><li>무선 이어폰</li></a>
+                <a href="./products.html?category=유선이어폰"><li>노이즈 캔슬링</li></a>
+                <a href="./products.html?category=유선이어폰"><li>하이레졸루션</li></a>
+            </ul>
+        </li>
+        <li class="main-list"><a href="./products.html">헤드폰</a><img src="images/plus.png" alt="plus">
+            <ul>
+                <a href="./products.html?category=유선헤드폰"><li>유선 헤드폰</li></a>
+                <a href="./products.html?category=무선헤드폰"><li>무선 헤드폰</li></a>
+                <a href="./products.html?category=무선헤드폰"><li>모니터링</li></a>
+                <a href="./products.html?category=무선헤드폰"><li>게이밍 헤드셋</li></a>
+                <a href="./products.html?category=무선헤드폰"><li>프리미엄</li></a>
+            </ul>
+        </li>
+        <li class="main-list"><a href="./products.html?category=턴테이블">턴테이블/스피커</a><img src="images/plus.png" alt="plus">
+            <ul>
+                <a href="./products.html?category=턴테이블"><li>턴테이블</li></a>
+                <a href="./products.html?category=스피커"><li>스피커</li></a>
+            </ul>
+        </li>
+        <li class="main-list"><a href="./products.html?category=마이크">마이크</a></li>
+        <li class="main-list"><a href="./">고객지원</a><img src="images/plus.png" alt="plus">
+            <ul>
+                <a href="./"><li>고객센터</li></a>
+                <a href="./"><li>무통장입금</li></a>
+                <a href="./"><li>배송조회</li></a>
+                <a href="./"><li>소셜미디어</li></a>
+            </ul>
+        </li>
+        <li class="main-list"><a href="./about.html">회사소개</a></li>
+    </ul>
+  </nav>
+</main>
   
  <!-- gnb---- -->
-
-<div class="container00">
+ <div class="container00">
   <img class="ti1" src="images/a1.png" alt="">
-  
 </div>
-
-
-
 <!--container-->
 
 <div class="main-menu">
@@ -191,14 +185,11 @@
 
 </div>
 
-      <!-- 푸터 -->
-      <footer>
+<footer>
         <div class="container">
           <div class="sns">
-            <a href="./"><img src="images/facebook.png" alt="facebook"></a>
-            <a href="./"><img src="images/apple.png" alt="apple"></a>
-            <a href="./"><img src="images/naver.png" alt="naver"></a>
-            <a href="./"><img src="images/kakao.png" alt="kakao"></a>
+            <i class="bi bi-instagram"></i>
+          <i class="bi bi-facebook"></i>
           </div>
           <div class="middle">
             <p id="bankbook">무통장입금
@@ -227,7 +218,7 @@
             <a href="./">HOME</a>
             </li>
             <li class="item">
-            <a href="./about.html">BRAND STORY</a>
+            <a href="about.html">BRAND STORY</a>
             </li>
             <li class="item">
             <a href="./">AGREEMENT</a>
@@ -239,12 +230,7 @@
             <a href="./">GUIDE</a>
             </li>
           </ul>
-        </div>
       </footer>
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-      <script src="js/swiper.js"></script>
 </body>
 
 </html>

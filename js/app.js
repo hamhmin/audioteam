@@ -43,7 +43,10 @@ $(function(){
     $('#num').text(num);
     });
     });
+
     
+
+
 
 // 메뉴 토글
 $(function(){
